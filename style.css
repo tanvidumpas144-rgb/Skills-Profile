@@ -1,0 +1,107 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f2f5fa;
+    color: #070101;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background: #64410c;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #9a5408;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    background: #fff;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(197, 116, 4, 0.1);
+}
+
+section h1, section h2 {
+    font-weight: 600;
+    color: #83511b;
+    margin-bottom: 15px;
+}
+
+/* BUTTONS */
+button {
+    padding: 12px 20px;
+    background: #e6903a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #995705;
+}
+
+/* INPUT FIELDS */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #3d2203;
+}
+
+/* UL LIST */
+ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul li {
+    background: #ecf4ff;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-weight: 400;
+    border-left: 4px solid #993f12;
+    transition: 0.3s ease;
+}
+
+ul li:hover {
+    background: #d9ebff;
+}

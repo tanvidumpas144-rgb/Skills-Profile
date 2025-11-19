@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <h1>Contact Me</h1>
+    <p>If you want to reach out, feel free to send me a message below.</p>
+
+    <!-- CONTACT FORM -->
+    <input type="text" id="contactName" placeholder="Your Name">
+    <input type="email" id="contactEmail" placeholder="Your Email">
+
+    <select id="contactReason">
+        <option value="">Choose a reason...</option>
+        <option value="Hello! I wanted to say hi.">Just Saying Hi</option>
+        <option value="I want to talk about a project.">Project Inquiry</option>
+        <option value="I want to work with you.">Collaboration</option>
+    </select>
+
+    <textarea id="contactMessage" placeholder="Your Message" rows="5"></textarea>
+
+    <button onclick="submitContact()">Send Message</button>
+
+    <p id="contactOutput" style="margin-top:10px; font-weight:600;"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
